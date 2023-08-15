@@ -22,19 +22,6 @@ import 'my_parallax_component.dart';
 
 class DinoRun extends FlameGame with TapDetector,HasCollisionDetection{
 
-  // List of all the image assets.
-  static const _imageAssets = [
-    'DinoSprites - tard.png',
-    'AngryPig/Walk(36x30).png',
-    'Bat/Flying(46x30).png',
-    'Rino/Run(52x34).png',
-    'parallax/plx-1.png',
-    'parallax/plx-2.png',
-    'parallax/plx-3.png',
-    'parallax/plx-4.png',
-    'parallax/plx-5.png',
-    'parallax/plx-6.png',
-  ];
 
   // List of all the audio assets.
   static const _audioAssets = [
@@ -49,8 +36,6 @@ class DinoRun extends FlameGame with TapDetector,HasCollisionDetection{
   late EnemyData enemyData;
   late Settings settings;
   late PlayerData playerData;
-  final style = TextStyle(color: BasicPalette.white.color,fontFamily: "Audiowide",
-  fontSize: 18, fontWeight: FontWeight.w600,);
 
   @override
   Future<void>? onLoad() async {
