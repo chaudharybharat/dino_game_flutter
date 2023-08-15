@@ -1,4 +1,4 @@
-# test_futter
+# Dino Game flutter
 
 A new Flutter project.
 
